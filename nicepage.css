@@ -5533,6 +5533,9 @@ ul.u-text li:last-child {
   .u-xxl-mode .u-hidden-xl {
     display: none !important;
   }
+.sky_background.png {
+}
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-hidden-lg {

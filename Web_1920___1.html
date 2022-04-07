@@ -24,7 +24,7 @@
 	#Web_1920__1 {
 		position: absolute;
 		width: 1920px;
-		height: 5259px;
+		height: 5192px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 		--web-view-name: Web 1920 – 1;
@@ -32,56 +32,150 @@
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
-	#Scroll_Group_1 {
-		mix-blend-mode: normal;
-		position: absolute;
-		width: 1728px;
-		height: 5272.875px;
-		left: 96px;
-		top: -7px;
-		overflow: hidden;
-	}
-	#Path_1 {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Path_1 {
-		overflow: visible;
-		position: absolute;
-		width: 1920px;
-		height: 5272.875px;
-		left: -96px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
-	}
 	#background {
 		position: absolute;
-		width: 1728px;
-		height: 1345px;
-		left: 96px;
-		top: 149px;
+		width: 1920px;
+		height: 1495px;
+		left: 0px;
+		top: 155px;
 		overflow: visible;
 	}
-	#top_rainforest {
+	#background_h {
 		position: absolute;
-		width: 1728px;
-		height: 1613px;
-		left: 96px;
-		top: 1494px;
+		width: 1920px;
+		height: 1495px;
+		left: 0px;
+		top: 0px;
 		overflow: visible;
 	}
 	#cave_ {
 		position: absolute;
-		width: 1728px;
-		height: 1613px;
-		left: 96px;
-		top: 3107px;
+		width: 1920px;
+		height: 1792px;
+		left: 0px;
+		top: 3367px;
 		overflow: visible;
+	}
+	#cave__j {
+		position: absolute;
+		width: 1920px;
+		height: 1792px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		fill: rgba(51,119,255,1);
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+	}
+	#top_rainforest {
+		position: absolute;
+		width: 1920px;
+		height: 1793px;
+		left: 0px;
+		top: 1614px;
+		overflow: visible;
+	}
+	#top_rainforest_m {
+		position: absolute;
+		width: 1920px;
+		height: 1793px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_2 {
+		opacity: 0.42;
+		fill: rgba(81,81,81,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1370px;
+		height: 4557px;
+		left: 275px;
+		top: 393px;
+	}
+	#Top_bar {
+		position: absolute;
+		width: 1205px;
+		height: 176px;
+		left: 358px;
+		top: 133px;
+		overflow: visible;
+	}
+	#name_logo_template {
+		position: absolute;
+		width: 189px;
+		height: 176px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#name_logo_template_q {
+		position: absolute;
+		width: 189px;
+		height: 176px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Component_3__1 {
+		position: absolute;
+		width: 848px;
+		height: 64px;
+		left: 357px;
+		top: 56px;
+		overflow: visible;
+	}
+	#ABOUT_US {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 227px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe Script;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(129,84,15,1);
+	}
+	#NFT {
+		left: 402px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe Script;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(129,84,15,1);
+	}
+	#DISCORD {
+		left: 669px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 180px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe Script;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(129,84,15,1);
 	}
 </style>
 <script id="applicationScript">
@@ -2997,18 +3091,43 @@ window.application = new Application();
 </head>
 <body>
 <div id="Web_1920__1">
-	<div id="Scroll_Group_1">
-		<svg class="Path_1" viewBox="27 0 1920 5272.875">
-			<path id="Path_1" d="M 27 0 L 1893.118896484375 0 L 1947 5272.875 L 27 5272.875 L 27 0 Z">
-			</path>
-		</svg>
+	<div id="background" class="background">
+		<img id="background_h" src="background_h.png" srcset="background_h.png 1x, background_h@2x.png 2x">
+			
 	</div>
-	<img id="background" src="background.png" srcset="background.png 1x, background@2x.png 2x">
-		
-	<img id="top_rainforest" src="top_rainforest.png" srcset="top_rainforest.png 1x, top_rainforest@2x.png 2x">
-		
-	<img id="cave_" src="cave_.png" srcset="cave_.png 1x, cave_@2x.png 2x">
-		
+	<div id="cave_" class="cave_">
+		<img id="cave__j" src="cave__j.png" srcset="cave__j.png 1x, cave__j@2x.png 2x">
+			
+	</div>
+	<svg class="Rectangle_1">
+		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="200">
+		</rect>
+	</svg>
+	<div id="top_rainforest" class="top_rainforest">
+		<img id="top_rainforest_m" src="top_rainforest_m.png" srcset="top_rainforest_m.png 1x, top_rainforest_m@2x.png 2x">
+			
+	</div>
+	<svg class="Rectangle_2">
+		<rect id="Rectangle_2" rx="99" ry="99" x="0" y="0" width="1370" height="4557">
+		</rect>
+	</svg>
+	<div id="Top_bar" class="Top_bar">
+		<div id="name_logo_template" class="name_logo_template">
+			<img id="name_logo_template_q" src="name_logo_template_q.png" srcset="name_logo_template_q.png 1x, name_logo_template_q@2x.png 2x">
+				
+		</div>
+		<div id="Component_3__1" class="Component_3___1">
+			<div id="ABOUT_US">
+				<span>ABOUT US</span>
+			</div>
+			<div id="NFT">
+				<span>NFT</span>
+			</div>
+			<div id="DISCORD">
+				<span>DISCORD</span>
+			</div>
+		</div>
+	</div>
 </div>
 </body>
 </html>
